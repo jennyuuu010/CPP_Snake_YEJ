@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{1f63be77-2f81-405d-9a08-b85ee3dddae8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Snake\Head.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Snake\Part.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Snake\Body.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Snake\ConsoleEngineCore.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Snake\ConsoleMath.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Snake\ConsoleObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Users\ASUS\Documents\UnrealProject\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Users\ASUS\Documents\UnrealProject\AR_UE5_GAME\CPlusPlus\Snake\Snake.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Snake\Body.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Snake\Part.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Snake\테스트제한사항.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Snake\ConsoleMath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Snake\ConsoleObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Users\ASUS\Documents\UnrealProject\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Users\ASUS\Documents\UnrealProject\AR_UE5_GAME\CPlusPlus\Snake\Head.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Users\ASUS\Documents\UnrealProject\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Snake\Snake.vcxproj">
+      <Filter>Engine</Filter>
+    </None>
+  </ItemGroup>
+</Project>
